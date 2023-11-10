@@ -77,8 +77,29 @@ int main()
 		{
 			std::cout << "there are no Bs in the rest of the world" << std::endl;
 		}
+	if (letter == 'c' || letter == 'C')
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba,  " << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Croatia, Czech Republic" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Congo, Côte D'ivoire, " << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Cambodia, China, Christmas Island, Cyprus" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Cocos, Cook Islands" << std::endl;
+		}
 	}
-<<<<<<< HEAD
 	if (letter == 'w' || letter == 'W')
 	{
 		if (region == 1)
@@ -123,29 +144,6 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "There are no Ys in rest of the world" << std::endl;
-=======
-	if (letter == 'c' || letter == 'C')
-	{
-		if (region == 1)
-		{
-			std::cout << "Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba,  " << std::endl; 
-		}
-		if (region == 2)
-		{
-			std::cout << "Croatia, Czech Republic" << std::endl;
-		}
-		if (region == 3)
-		{
-			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Congo, Côte D'ivoire, " << std::endl;
-		}
-		if (region == 4)
-		{
-			std::cout << "Cambodia, China, Christmas Island, Cyprus" << std::endl;
-		}
-		if (region == 5)
-		{
-			std::cout << "Cocos, Cook Islands" << std::endl;
->>>>>>> a6da364ac92a84a7d06a632813bd2d58320be6fd
 		}
 	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
