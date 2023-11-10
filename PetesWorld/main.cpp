@@ -100,6 +100,29 @@ int main()
 			std::cout << "Cocos, Cook Islands" << std::endl;
 		}
 	}
+	if (letter == 'v' || letter == 'V')
+	{
+		if (region == 1)
+		{
+			std::cout << "Vanuatu" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Vatican City State (Holy City)" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Venezuela" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Virgin Islands (U.S.), Virgin Islands (British)" << std::endl;
+		}
+	}
 	if (letter == 'w' || letter == 'W')
 	{
 		if (region == 1)
